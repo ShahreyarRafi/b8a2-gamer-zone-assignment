@@ -15,6 +15,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 40px 240px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .nav-menus li {
@@ -57,6 +58,101 @@ nav {
     padding: 1rem;
     gap: 1.50rem;
 }
+
+
+/* banner section */
+
+.banner-section {
+    background-image: url(../images/Group14.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    padding: 0px 240px;
+}
+
+.banner-title {
+    color: #0B0223;
+    font-size: 48px;
+    ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.goat {
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+
+.instant-play {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.0625rem;
+}
+
+.no-download {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.0625rem;
+}
+
+.supported-games {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 2.5625rem;
+}
+
+.sign-in-btn {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.go-rogue-btn {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    color: #FFF;
+    border: none;
+    margin-left: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sign-in-btn,
+.go-rogue-btn:hover {
+    cursor: pointer;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 
 
@@ -121,6 +217,7 @@ nav {
 
 
 }
+
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
     nav {
@@ -132,6 +229,7 @@ nav {
     }
 
 }
+
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
 
     nav {
