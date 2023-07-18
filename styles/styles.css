@@ -14,7 +14,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 240px;
+    padding: 40px 240px;
 }
 
 .nav-menus li {
@@ -56,4 +56,91 @@ nav {
     background: rgba(11, 2, 35, 0.10);
     padding: 1rem;
     gap: 1.50rem;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    nav {
+        flex-direction: column;
+        gap: 3.875rem;
+        padding: 103px 5%;
+    }
+
+    .nav-menus {
+        flex-direction: column;
+        gap: 2.25rem;
+    }
+
+    .follow-us-nav {
+        margin-top: 1.625rem;
+    }
+
+
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 3.875rem;
+        padding: 103px 10%;
+    }
+
+    .nav-menus {
+        flex-direction: column;
+        gap: 2.25rem;
+    }
+
+    .follow-us-nav {
+        margin-top: 1.625rem;
+    }
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    nav {
+        flex-direction: column;
+        gap: 3.875rem;
+        padding: 103px 10%;
+    }
+
+    .nav-menus {
+        flex-direction: column;
+        gap: 2.25rem;
+    }
+
+    .follow-us-nav {
+        margin-top: 1.625rem;
+    }
+
+
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    nav {
+        padding: 30px 10%;
+    }
+
+    .nav-menus {
+        gap: 1.3rem;
+    }
+
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+
+    nav {
+        padding: 30px 15%;
+    }
+
+    .nav-menus {
+
+        gap: 2.5rem;
+    }
+
 }
