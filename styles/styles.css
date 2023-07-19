@@ -8,6 +8,18 @@
     margin: 0;
 }
 
+/* shared styles */
+
+.linear-gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
 /* nav section */
 
 nav {
@@ -62,95 +74,55 @@ nav {
 
 /* banner section */
 
-.banner-section {
+
+.banner {
     background-image: url(../images/Group14.png);
-    height: 700px;
     background-repeat: no-repeat;
-    padding: 0px 240px;
+    background-position: top left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 240px;
 }
 
-.banner-title {
+.banner-contant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.banner-text h4 {
     color: #0B0223;
-    font-size: 48px;
-    ;
+    text-align: center;
+    font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
+    
 }
 
-.goat {
+.banner-text h1 {
+    text-align: center;
     font-family: Work Sans;
     font-size: 95px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: 24px;
 }
 
-.instant-play {
+.banner-text li {
+    list-style: none;
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 1.0625rem;
+    gap: 12px;
+    margin-bottom: 17px;
+    padding-left: 0;
 }
 
-.no-download {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 1.0625rem;
-}
-
-.supported-games {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 2.5625rem;
-}
-
-.sign-in-btn {
-    display: inline-flex;
-    padding: 21px 40px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
-    background-color: #FF42A5;
-    color: #FFF;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-
-}
-
-.go-rogue-btn {
-    display: inline-flex;
-    padding: 21px 40px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
-    background-color: #4EC5F7;
-    color: #FFF;
-    border: none;
-    margin-left: 24px;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.sign-in-btn,
-.go-rogue-btn:hover {
-    cursor: pointer;
-}
-
-.banner-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.banner-text ul{
+    padding-left: 0;
 }
 
 
@@ -175,6 +147,7 @@ nav {
     }
 
 
+
 }
 
 
@@ -194,6 +167,7 @@ nav {
     .follow-us-nav {
         margin-top: 1.625rem;
     }
+
 
 
 }
