@@ -177,6 +177,10 @@ nav {
     margin-bottom: 24px;
 }
 
+.about-img{
+    max-width: 60%;
+}
+
 .btn-know-more {
     background-color: #FF42A5;
     margin-top: 32px;
@@ -277,6 +281,24 @@ nav {
         margin-left: 10px;
     }
 
+    /* about section */
+
+    .about-section {
+        background-color: #FFF;
+        text-align: center;
+        padding: 5%;
+        flex-direction: column;
+    }
+
+    .about-img {
+        max-width: 100vw;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+
 }
 
 
@@ -356,6 +378,28 @@ nav {
         background-color: #4EC5F7;
         margin-left: 15px;
     }
+
+    /* about section */
+
+    .about-section {
+        background-color: #FFF;
+        text-align: center;
+        padding: 5% 10%;
+        flex-direction: column;
+    }
+
+    .about-img {
+        max-width: 100vw;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    .btn-know-more {
+        margin: 40px 0px;
+    }
+
 
 
 }
@@ -437,6 +481,28 @@ nav {
         margin-left: 20px;
     }
 
+    /* about section */
+
+    .about-section {
+        background-color: #FFF;
+        text-align: center;
+        padding: 5% 10%;
+        flex-direction: column;
+    }
+
+    .about-img {
+        max-width: 100vw;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    .btn-know-more {
+        margin: 50px 0px;
+    }
+
+
 }
 
 /* large devices */
@@ -497,6 +563,28 @@ nav {
         background-color: #4EC5F7;
         margin-left: 17px;
     }
+
+    /* about section */
+
+    .about-section {
+        background-color: #FFF;
+        text-align: center;
+        padding: 5% 10%;
+        flex-direction: column;
+    }
+
+    .about-img {
+        max-width: 100vw;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    .btn-know-more {
+        margin: 50px 0px;
+    }
+
 
 }
 
@@ -560,6 +648,21 @@ nav {
         margin-left: 17px;
     }
 
+     /* about section */
+
+     .about-section {
+        padding: 5% 15%;
+    }
+
+    .about-img {
+        max-width: 500px;
+    }
+
+    .btn-know-more {
+        margin: 50px 0px;
+    }
+
+
 
 }
 
@@ -580,5 +683,18 @@ nav {
         text-transform: uppercase;
         margin-top: 15px;
     }
+
+    .about-section {
+        padding: 5% 15%;
+    }
+
+    .about-img {
+        max-width: 500px;
+    }
+
+    .btn-know-more {
+        margin: 50px 0px;
+    }
+
 
 }
