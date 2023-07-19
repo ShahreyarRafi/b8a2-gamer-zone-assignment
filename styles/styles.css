@@ -17,6 +17,21 @@
     -webkit-text-fill-color: transparent;
 }
 
+.button {
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    cursor: pointer;
+}
 
 
 
@@ -90,19 +105,20 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 100vw;
+
 }
 
 .banner-text h4 {
     color: #0B0223;
-    text-align: center;
+    /* text-align: center; */
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
-    
+
 }
 
 .banner-text h1 {
-    text-align: center;
+    /* text-align: center; */
     font-family: Work Sans;
     font-size: 95px;
     font-style: normal;
@@ -121,10 +137,18 @@ nav {
     padding-left: 0;
 }
 
-.banner-text ul{
+.banner-text ul {
     padding-left: 0;
 }
 
+.btn-sign-in {
+    background-color: #FF42A5;
+}
+
+.btn-go-rogue {
+    background-color: #4EC5F7;
+    margin-left: 24px;
+}
 
 
 
@@ -146,7 +170,58 @@ nav {
         margin-top: 1.625rem;
     }
 
+    .banner {
+        background-image: none;
+        padding: 0 10%;
+        background-position: bottom left;
+    }
 
+    .banner-contant {
+        flex-direction: column-reverse;
+    }
+
+    .banner-text {
+        background-image: url(../images/Group14.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 2.5rem;
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .banner-img {
+        max-width: 90%;
+        margin-top: 20px;
+    }
+
+    .banner-text h4 {
+        font-size: 30px;
+
+    }
+
+    .banner-text h1 {
+        font-size: 60px;
+    }
+
+    .button {
+        padding: 12px 20px;
+        gap: 10px;
+        border-radius: 48px;
+        border: none;
+        color: #FFF;
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .btn-sign-in {
+        background-color: #FF42A5;
+    }
+
+    .btn-go-rogue {
+        background-color: #4EC5F7;
+        margin-left: 10px;
+    }
 
 }
 
@@ -168,6 +243,59 @@ nav {
         margin-top: 1.625rem;
     }
 
+    .banner {
+        background-image: none;
+        padding: 0 10%;
+        background-position: bottom left;
+    }
+
+    .banner-contant {
+        flex-direction: column-reverse;
+    }
+
+    .banner-text {
+        background-image: url(../images/Group14.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 2.5rem;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .banner-img {
+        max-width: 90%;
+        margin-top: 30px;
+    }
+
+    .banner-text h4 {
+        font-size: 40px;
+
+    }
+
+    .banner-text h1 {
+        font-size: 70px;
+    }
+
+    .button {
+        padding: 17px 25px;
+        gap: 10px;
+        border-radius: 48px;
+        border: none;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+
+    .btn-sign-in {
+        background-color: #FF42A5;
+    }
+
+    .btn-go-rogue {
+        background-color: #4EC5F7;
+        margin-left: 15px;
+    }
 
 
 }
@@ -189,6 +317,59 @@ nav {
         margin-top: 1.625rem;
     }
 
+    .banner {
+        background-image: none;
+        padding: 0 10%;
+        background-position: bottom left;
+    }
+
+    .banner-contant {
+        flex-direction: column-reverse;
+    }
+
+    .banner-text {
+        background-image: url(../images/Group14.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 2.5rem;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .banner-img {
+        max-width: 90%;
+        margin-top: 40px;
+    }
+
+    .banner-text h4 {
+        font-size: 48px;
+
+    }
+
+    .banner-text h1 {
+        font-size: 90px;
+    }
+
+    .button {
+        padding: 20px 30px;
+        gap: 10px;
+        border-radius: 48px;
+        border: none;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+
+    .btn-sign-in {
+        background-color: #FF42A5;
+    }
+
+    .btn-go-rogue {
+        background-color: #4EC5F7;
+        margin-left: 20px;
+    }
 
 }
 
@@ -202,6 +383,50 @@ nav {
         gap: 1.3rem;
     }
 
+
+    .banner-text {
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 2.5rem;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .banner-img {
+        max-width: 500px;
+        margin-top: 40px;
+    }
+
+    .banner-text h4 {
+        font-size: 40px;
+
+    }
+
+    .banner-text h1 {
+        font-size: 80px;
+    }
+
+    .button {
+        padding: 21px 30px;
+        gap: 10px;
+        border-radius: 48px;
+        border: none;
+        color: #FFF;
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+
+    .btn-sign-in {
+        background-color: #FF42A5;
+    }
+
+    .btn-go-rogue {
+        background-color: #4EC5F7;
+        margin-left: 17px;
+    }
+
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -213,6 +438,69 @@ nav {
     .nav-menus {
 
         gap: 2.5rem;
+    }
+
+
+
+    .banner-text {
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 2.5rem;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .banner-img {
+        max-width: 500px;
+        margin-top: 40px;
+    }
+
+    .banner-text h4 {
+        font-size: 40px;
+
+    }
+
+    .banner-text h1 {
+        font-size: 80px;
+    }
+
+    .button {
+        padding: 21px 30px;
+        gap: 10px;
+        border-radius: 48px;
+        border: none;
+        color: #FFF;
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+
+    .btn-sign-in {
+        background-color: #FF42A5;
+    }
+
+    .btn-go-rogue {
+        background-color: #4EC5F7;
+        margin-left: 17px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1401px) and (max-width: 1600px){
+
+    .button {
+        padding: 21px 30px;
+        gap: 10px;
+        border-radius: 48px;
+        border: none;
+        color: #FFF;
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
     }
 
 }
