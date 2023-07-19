@@ -279,8 +279,77 @@ nav {
 
 .category-img {
     width: 60px;
-    /* margin-left: 10px; */
 }
+
+/* footer section */
+.footer-section {
+    background-color: #0B0223;
+}
+
+.company-title-footer {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.footer-company-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 66px;
+    gap: 20px;
+
+}
+
+.footer-menu {
+    margin-bottom: 66px;
+}
+
+.footer-menu a {
+    color: #FFF;
+    gap: 60px;
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+
+.socials a {
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 40px;
+    margin-bottom: 66px;
+    margin-right: 40px;
+}
+
+.policies {
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+.policies a {
+    margin-right: 60px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-content {
+    padding: 120px 0px;
+}
+
 
 
 
@@ -431,6 +500,41 @@ nav {
         margin-left: 10px;
         font-size: 15px;
     }
+
+
+    /* footer section */
+
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-menu a {
+        margin-bottom: 35px;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+
+    .socials {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .policies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .policies a {
+        margin-bottom: 35px;
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
 }
 
 /* medium devices (tablets) */
@@ -587,9 +691,38 @@ nav {
         font-size: 15px;
     }
 
+    /* footer section */
 
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    .footer-menu a {
+        margin-bottom: 35px;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
 
+    .socials {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .policies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .policies a {
+        margin-bottom: 35px;
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
 
 
 }
@@ -747,6 +880,40 @@ nav {
         margin-left: 10px;
         font-size: 17px;
     }
+
+    /* footer section */
+
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-menu a {
+        margin-bottom: 35px;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+
+    .socials {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .policies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .policies a {
+        margin-bottom: 35px;
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
 
 
 
