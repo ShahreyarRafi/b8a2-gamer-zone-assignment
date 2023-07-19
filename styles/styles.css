@@ -17,6 +17,12 @@
     -webkit-text-fill-color: transparent;
 }
 
+.title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
 .button {
     padding: 21px 40px;
     align-items: flex-start;
@@ -177,7 +183,7 @@ nav {
     margin-bottom: 24px;
 }
 
-.about-img{
+.about-img {
     max-width: 60%;
 }
 
@@ -200,6 +206,35 @@ nav {
     font-weight: 700;
     line-height: 45px;
 }
+
+/* online games section */
+
+.online-games-section > h2 {
+    text-align: center;
+
+}
+.online-games-section > p {
+    text-align: center;
+
+}
+
+.online-games-section{
+    padding-top: 120px;
+}
+
+.game-container{
+    display: flex;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 48px;
+ 
+}
+
+.game{
+    max-width: 320px;
+}
+
 
 
 
@@ -648,9 +683,9 @@ nav {
         margin-left: 17px;
     }
 
-     /* about section */
+    /* about section */
 
-     .about-section {
+    .about-section {
         padding: 5% 15%;
     }
 
