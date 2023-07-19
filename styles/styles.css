@@ -207,33 +207,34 @@ nav {
     line-height: 45px;
 }
 
-/* online games section */
-
-.online-games-section > h2 {
-    text-align: center;
-
-}
-.online-games-section > p {
-    text-align: center;
-
-}
-
-.online-games-section{
-    padding-top: 120px;
-}
-
-.game-container{
+/* features section */
+.features-section{
     display: flex;
-    grid-template-columns: 1fr;
-    gap: 40px;
+    align-items: center;
     justify-content: center;
-    padding-top: 48px;
- 
+    padding: 120px 240px;
 }
 
-.game{
-    max-width: 320px;
+.feature-bottom-img{
+    height: 90%;
+    margin-left: 145px;
 }
+
+.feature-top-img{
+    position: relative;
+    bottom: 270px;
+
+}
+
+.features-title-container{
+    text-align: right;
+    margin-right: 120px;
+}
+
+
+/* .features-img-container{
+    max-width: 36%;
+} */
 
 
 
@@ -332,6 +333,8 @@ nav {
     .about-title {
         text-align: center;
     }
+
+
 
 
 }
@@ -538,6 +541,9 @@ nav {
     }
 
 
+
+
+
 }
 
 /* large devices */
@@ -621,6 +627,9 @@ nav {
     }
 
 
+
+
+
 }
 
 /* larger devices */
@@ -696,6 +705,7 @@ nav {
     .btn-know-more {
         margin: 50px 0px;
     }
+
 
 
 
