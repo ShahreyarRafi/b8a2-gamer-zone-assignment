@@ -100,7 +100,7 @@ nav {
     padding: 0 240px;
 }
 
-.banner-contant {
+.banner-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -143,17 +143,23 @@ nav {
 
 .btn-sign-in {
     background-color: #FF42A5;
+    margin-top: 30px;
 }
 
 .btn-go-rogue {
     background-color: #4EC5F7;
+    margin-top: 30px;
     margin-left: 24px;
 }
 
 
+/* media quarries */
 
+/* small devices (mobiles) */
 
 @media screen and (max-width: 576px) {
+
+    /* nav section */
 
     nav {
         flex-direction: column;
@@ -170,13 +176,15 @@ nav {
         margin-top: 1.625rem;
     }
 
+    /* banner section */
+
     .banner {
         background-image: none;
         padding: 0 10%;
         background-position: bottom left;
     }
 
-    .banner-contant {
+    .banner-content {
         flex-direction: column-reverse;
     }
 
@@ -226,7 +234,11 @@ nav {
 }
 
 
+/* medium devices (tablets) */
+
 @media screen and (min-width: 577px) and (max-width: 768px) {
+
+    /* nav section */
 
     nav {
         flex-direction: column;
@@ -243,13 +255,15 @@ nav {
         margin-top: 1.625rem;
     }
 
+    /* banner section */
+
     .banner {
         background-image: none;
         padding: 0 10%;
         background-position: bottom left;
     }
 
-    .banner-contant {
+    .banner-content {
         flex-direction: column-reverse;
     }
 
@@ -300,7 +314,11 @@ nav {
 
 }
 
+/* medium large devices */
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
+
+    /* nav section */
 
     nav {
         flex-direction: column;
@@ -317,13 +335,15 @@ nav {
         margin-top: 1.625rem;
     }
 
+    /* banner section */
+
     .banner {
         background-image: none;
         padding: 0 10%;
         background-position: bottom left;
     }
 
-    .banner-contant {
+    .banner-content {
         flex-direction: column-reverse;
     }
 
@@ -373,7 +393,11 @@ nav {
 
 }
 
+/* large devices */
+
 @media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    /* nav section */
 
     nav {
         padding: 30px 10%;
@@ -383,6 +407,7 @@ nav {
         gap: 1.3rem;
     }
 
+    /* banner section */
 
     .banner-text {
         background-repeat: no-repeat;
@@ -429,7 +454,11 @@ nav {
 
 }
 
+/* larger devices */
+
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
+
+    /* nav section */
 
     nav {
         padding: 30px 15%;
@@ -440,7 +469,7 @@ nav {
         gap: 2.5rem;
     }
 
-
+    /* banner section */
 
     .banner-text {
         background-repeat: no-repeat;
@@ -488,16 +517,19 @@ nav {
 
 }
 
+/* some extra devices */
 
 @media screen and (min-width: 1401px) and (max-width: 1600px){
 
+    /* banner section */
+
     .button {
-        padding: 21px 30px;
+        padding: 21px 35px;
         gap: 10px;
         border-radius: 48px;
         border: none;
         color: #FFF;
-        font-size: 17px;
+        font-size: 20px;
         font-weight: 600;
         text-transform: uppercase;
         margin-top: 15px;
