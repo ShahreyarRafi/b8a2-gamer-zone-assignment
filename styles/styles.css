@@ -304,8 +304,7 @@ nav {
 }
 
 .feature-top-img {
-    position: relative;
-    bottom: 270px;
+    margin-top: -270px;
 
 }
 
@@ -627,13 +626,13 @@ nav {
 
     .feature-top-img {
         width: 40%;
-        bottom: 130px;
-        left: 15px;
-
+        margin-top: -130px;
+        margin-left: 10px;
     }
 
     .features-title-container {
         margin-right: 0px;
+        margin-top: 30px;
         padding: 10px;
         text-align: center;
     }
@@ -847,18 +846,18 @@ nav {
 
     .feature-bottom-img {
         width: 75%;
-        margin-left: 80px;
+        margin-left: 100px;
     }
 
     .feature-top-img {
         width: 40%;
-        bottom: 180px;
-        left: 15px;
-
+        margin-top: -160px;
+        margin-left: 10px;
     }
 
     .features-title-container {
         margin-right: 0px;
+        margin-top: 30px;
         padding: 10px;
         text-align: center;
     }
@@ -1073,18 +1072,18 @@ nav {
 
     .feature-bottom-img {
         width: 75%;
-        margin-left: 100px;
+        margin-left: 140px;
     }
 
     .feature-top-img {
         width: 40%;
-        bottom: 250px;
-        left: 30px;
-
+        margin-top: -200px;
+        margin-left: 30px;
     }
 
     .features-title-container {
         margin-right: 0px;
+        margin-top: 30px;
         padding: 10px;
         text-align: center;
     }
@@ -1278,26 +1277,27 @@ nav {
     }
 
     .features-img-container {
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
     .feature-bottom-img {
         width: 75%;
-        margin-left: 100px;
+        margin-left: 170px;
     }
 
     .feature-top-img {
         width: 40%;
-        bottom: 290px;
-        left: 30px;
-
+        margin-top: -240px;
+        margin-left: 40px;
     }
 
     .features-title-container {
         margin-right: 0px;
+        margin-top: 30px;
         padding: 10px;
         text-align: center;
     }
+
 
     /* career section */
 
@@ -1445,8 +1445,8 @@ nav {
 
     .feature-top-img {
         width: 40%;
-        bottom: 180px;
-        left: 30px;
+        margin-top: -170px;
+        margin-left: 30px;
 
     }
 
@@ -1561,8 +1561,8 @@ nav {
 
     .feature-top-img {
         width: 40%;
-        bottom: 180px;
-        left: 30px;
+        margin-top: -200px;
+        margin-left: 30px;
 
     }
 
