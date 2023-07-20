@@ -207,6 +207,28 @@ nav {
     line-height: 45px;
 }
 
+/* games section */
+
+.games-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.games-title{
+    text-align: center;
+}
+
+.game-box-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.game-img img{
+    width: 100%;
+}
+
+
 /* features section */
 
 .features-section {
