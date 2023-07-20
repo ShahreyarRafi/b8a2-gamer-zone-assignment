@@ -450,13 +450,12 @@ nav {
 .category:hover {
     border: 1px solid #FF42A5;
     padding: 0px 9px;
-    
+
 }
 
 .category:hover .category-title {
     color: #FF42A5;
 }
-
 
 .category>p {
     margin-left: 16px;
@@ -537,9 +536,6 @@ nav {
 .footer-content {
     padding: 120px 0px;
 }
-
-
-
 
 
 
@@ -1283,11 +1279,6 @@ nav {
     }
 
 
-
-
-
-
-
 }
 
 /* large devices */
@@ -1662,9 +1653,6 @@ nav {
         margin-left: 16px;
         font-size: 20px;
     }
-
-
-
 
 
 }
