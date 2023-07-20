@@ -231,6 +231,8 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+
+
 }
 
 .game-img {
@@ -394,13 +396,17 @@ nav {
 .category-content {
     width: 100%;
     padding: 0 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .category-container {
-    display: grid;
-    grid-template-columns: repeat(5, 0.5fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
-    justify-items: center;
+    max-width: 1600px;
 
 }
 
@@ -669,7 +675,8 @@ nav {
     }
 
     .category-container {
-        grid-template-columns: repeat(2, 0.5fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
 
     }
@@ -684,7 +691,6 @@ nav {
         margin-left: 10px;
         font-size: 15px;
     }
-
 
     /* footer section */
 
@@ -719,7 +725,9 @@ nav {
         text-align: center;
     }
 
+
 }
+
 
 /* medium devices (tablets) */
 
@@ -894,9 +902,9 @@ nav {
     }
 
     .category-container {
-        grid-template-columns: repeat(3, 0.5fr);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
-
 
     }
 
@@ -1120,9 +1128,9 @@ nav {
     }
 
     .category-container {
-        grid-template-columns: repeat(3, 0.5fr);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
-
 
     }
 
@@ -1329,8 +1337,9 @@ nav {
     }
 
     .category-container {
-        grid-template-columns: repeat(3, 0.5fr);
-        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
 
 
     }
@@ -1486,9 +1495,9 @@ nav {
     }
 
     .category-container {
-        grid-template-columns: repeat(3, 0.5fr);
-        gap: 20px;
-
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
 
     }
 
@@ -1511,7 +1520,7 @@ nav {
 
 /* some extra devices */
 
-@media screen and (min-width: 1401px) and (max-width: 1600px) {
+@media screen and (min-width: 1401px) and (max-width: 1630px) {
 
     /* banner section */
 
@@ -1565,10 +1574,10 @@ nav {
 
     /* career section */
 
-    .career-content {
+    /* .career-content {
         flex-direction: column;
 
-    }
+    } */
 
     .career-text {
         padding: 5%;
@@ -1589,7 +1598,7 @@ nav {
     }
 
     .career-img img {
-        width: 100%;
+        width: 40vw;
     }
 
     /* category section */
@@ -1602,9 +1611,9 @@ nav {
     }
 
     .category-container {
-        grid-template-columns: repeat(3, 0.5fr);
-        gap: 20px;
-
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
 
     }
 
@@ -1618,9 +1627,6 @@ nav {
         margin-left: 16px;
         font-size: 20px;
     }
-
-
-
 
 
 }
